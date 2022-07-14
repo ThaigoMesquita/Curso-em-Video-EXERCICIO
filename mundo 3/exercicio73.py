@@ -1,0 +1,11 @@
+time = 'corintians','Palmeiras','Santos','Gremio','Cruzeiro','Flamengo','Vasco','Botafogo','Atletico-GO','Atletico-PR','Avaí','Bahia','Chapeucoense'
+print('-='*10)
+print(f'Lista de times do Brasileiro {time}')
+print('-='*10)
+print(f'os 5 primeiros são {time[:5]}')
+print('-='*10)
+print(f'os ultimos 4 são {time[-4:]}')
+print('-='*10)
+print(F'Em ordem alfabetica {sorted(time)}')
+print(f"time da Chapeucoense se encontra na {time.index('Chapeucoense')}")
+print('-='*10)
